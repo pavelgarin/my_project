@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1400496877">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PWROPT-DCP" Name="kpsm_top_pwropt.dcp"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="kpsm_top_drc_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="kpsm_top_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="kpsm_top.tcl"/>
+  <File Type="OPT-DCP" Name="kpsm_top_opt.dcp"/>
+  <File Type="PWROPT-DRC" Name="kpsm_top_drc_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="kpsm_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="kpsm_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="kpsm_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="kpsm_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="kpsm_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="kpsm_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="kpsm_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="kpsm_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="kpsm_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="kpsm_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="kpsm_top_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="kpsm_top_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="kpsm_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="kpsm_top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="kpsm_top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="kpsm_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="kpsm_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="kpsm_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="kpsm_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="kpsm_top_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="kpsm_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="kpsm_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="kpsm_top.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="kpsm_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="kpsm_top.bit"/>
+  <File Type="BG-BIN" Name="kpsm_top.bin"/>
+  <File Type="BITSTR-MSK" Name="kpsm_top.msk"/>
+  <File Type="BITSTR-RBT" Name="kpsm_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="kpsm_top.nky"/>
+  <File Type="BITSTR-BMM" Name="kpsm_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="kpsm_top.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/kpsm_top.sysdef"/>
+  <File Type="BG-BGN" Name="kpsm_top.bgn"/>
+  <File Type="BG-DRC" Name="kpsm_top.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/my_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

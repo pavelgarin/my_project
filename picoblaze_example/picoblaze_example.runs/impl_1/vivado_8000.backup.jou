@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon May 19 12:42:45 2014
+# Process ID: 4676
+# Log file: C:/project/picoblaze_example/picoblaze_example.runs/impl_1/kpsm_top.vdi
+# Journal file: C:/project/picoblaze_example/picoblaze_example.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source kpsm_top.tcl -notrace
