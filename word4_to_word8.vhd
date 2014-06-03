@@ -1,3 +1,4 @@
+---comment
 ------------------------------------------------------------- 
 --	Filename:  DECIMATE.VHD 
 -- Author: Alain Zarembowitch / MSS 
