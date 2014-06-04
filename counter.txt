@@ -1,3 +1,4 @@
+123
 Input
 	reset
 	[7:0]load_data
